@@ -11,6 +11,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.11"
+prompt = "^0.4.1"
 
 
 [build-system]
