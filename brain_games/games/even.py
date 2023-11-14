@@ -27,7 +27,7 @@ def even_():
         else:
             print(f"'{answer}' is wrong answer ;(. Correct "
                   f"answer was {right_answer}.\n Let's try again, {name}")
-        break
+            break
 
     if correct_answer_user == 3:
         print(f"Congratulations, {name}")
