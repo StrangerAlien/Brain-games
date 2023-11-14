@@ -18,15 +18,15 @@ def even_():
         print(f"Question: {random_num}")
         answer = prompt.string("Your answer: ")
 
-        if answer != 'yes' and answer != 'no':
-            print(f"'{answer}' is wrong answer ;(. Correct answer was {right_answer}.\n Let's try again, {name}")
-            break
-        elif random_num % 2 == 0 and answer == 'yes':
+        if random_num % 2 == 0 and answer == 'yes':
             print('Correct!')
             correct_answer_user += 1
         elif random_num % 2 != 0 and answer == 'no':
             print('Correct!')
             correct_answer_user += 1
+        else:
+            print(f"'{answer}' is wrong answer ;(. Correct answer was {right_answer}.\n Let's try again, {name}")
+            break
 
-        if correct_answer_user == 3:
-            print(f"Congratulations, {name}")
+    if correct_answer_user == 3:
+        print(f"Congratulations, {name}")
