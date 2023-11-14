@@ -4,7 +4,7 @@ from brain_games.games.even import even_
 
 
 def main():
-    welcome_user()
+    # welcome_user()
     even_()
 
 
