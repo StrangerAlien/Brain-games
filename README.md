@@ -8,3 +8,6 @@
 
 ### Install brain-games, brain-even run
 [![asciicast](https://asciinema.org/a/jmpbUZX5PwqgindRdgM1tKRNl.svg)](https://asciinema.org/a/jmpbUZX5PwqgindRdgM1tKRNl)<br>
+
+### Brain-calc run
+[![asciicast](https://asciinema.org/a/nzRsc4LgT8BTeA4jpUd3G3qjg.svg)](https://asciinema.org/a/nzRsc4LgT8BTeA4jpUd3G3qjg)<br>
