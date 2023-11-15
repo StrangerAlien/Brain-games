@@ -1,5 +1,4 @@
-import random
-from random import randint
+from random import randint, choice
 
 
 def game_data():
@@ -7,7 +6,7 @@ def game_data():
 
     sign = ['+', '-', '*']
 
-    expression = f'{randint(0, 10)} {random.choice(sign)} {randint(0, 10)}'
+    expression = f'{randint(0, 10)} {choice(sign)} {randint(0, 10)}'
 
     right_answer = str(eval(expression))
 
