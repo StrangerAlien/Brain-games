@@ -15,6 +15,7 @@ def game_data():
 
     hidden_num = randint(0, qty_elem - 1)
     right_answer = str(progression[hidden_num])
+
     progression[hidden_num] = '..'
     expression = (' '.join(str(i) for i in progression))
 
