@@ -6,6 +6,26 @@
 Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена.
 Неправильные ответы завершают игру и предлагают пройти ее заново.<br>
 
+
+## Dependencies
+
+- python = ">=3.6"
+- poetry = ">=1.2.0"
+- pip = ">=19"
+
+
+## Install
+
+```bash
+git clone https://github.com/StrangerAlien/python-project-49.git
+
+cd python-project-49/
+
+make build
+make install
+make package-install
+```
+
 ### Install brain-games, brain-even run
 [![asciicast](https://asciinema.org/a/jmpbUZX5PwqgindRdgM1tKRNl.svg)](https://asciinema.org/a/jmpbUZX5PwqgindRdgM1tKRNl)<br>
 
