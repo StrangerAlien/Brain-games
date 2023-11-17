@@ -9,7 +9,7 @@ def game_data():
     count = 0
     for i in range(2, num // 2 + 1):
         if num % i == 0:
-            count = count + 1
+            count += 1
     if count <= 0:
         right_answer = 'yes'
     else:
