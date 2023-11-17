@@ -30,7 +30,7 @@ make package-install
 [![asciicast](https://asciinema.org/a/TiZCZvU7a7aRqTSyi2w2i2ieL.svg)](https://asciinema.org/a/TiZCZvU7a7aRqTSyi2w2i2ieL)<br>
 
 ### Brain-calc run
-[![asciicast](https://asciinema.org/a/gwxJM9mUVrAHDI8R8ZZQp89BY.svg)](https://asciinema.org/a/gwxJM9mUVrAHDI8R8ZZQp89BY)<br>
+[![asciicast](https://asciinema.org/a/nzRsc4LgT8BTeA4jpUd3G3qjg.svg)](https://asciinema.org/a/nzRsc4LgT8BTeA4jpUd3G3qjg)<br>
 
 ### Brain-gcd run
 [![asciicast](https://asciinema.org/a/w0F8YOvqevCXLBvHQ2OvJEixM.svg)](https://asciinema.org/a/w0F8YOvqevCXLBvHQ2OvJEixM)<br>
