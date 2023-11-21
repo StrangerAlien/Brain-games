@@ -1,13 +1,17 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "a set of five brain-boosting console games"
 authors = ["Aleksei <jiunov@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/StrangerAlien/python-project-49"
 packages = [
   { include = "brain_games" },
 ]
-
+classifiers = [
+    "Programming Language :: Python",
+    "Topic :: Games/Console",
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
