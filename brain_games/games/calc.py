@@ -5,8 +5,8 @@ import operator
 def game_data():
     print("What is the result of the expression?")
 
-    num1 = randint(0, 10)
-    num2 = randint(0, 10)
+    first_num = randint(0, 10)
+    second_num = randint(0, 10)
 
     action = {
         "+": operator.add,
@@ -16,8 +16,8 @@ def game_data():
 
     operation = choice(list(action.keys()))
 
-    expression = f'{num1} {operation} {num2}'
+    expression = f'{first_num} {operation} {second_num}'
 
-    right_answer = str(action[operation](num1, num2))
+    right_answer = str(action[operation](first_num, second_num))
 
     return expression, right_answer
