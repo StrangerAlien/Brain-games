@@ -14,4 +14,4 @@ def game_data():
     right_answer, progression[hidden_num] = progression[hidden_num], '..'
     expression = ' '.join(str(i) for i in progression)
 
-    return expression, right_answer, DESCRIPTION
+    return expression, str(right_answer), DESCRIPTION
