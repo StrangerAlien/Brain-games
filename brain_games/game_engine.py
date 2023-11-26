@@ -6,8 +6,11 @@ def logic_(brain_game):
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
 
-    for i in range(3):  # number of correct answers
-        expression, right_answer = brain_game.game_data()
+    game_rounds_count = 3
+    for _ in range(game_rounds_count):
+
+        expression, right_answer, DESCRIPTION = brain_game.game_data()
+        print(DESCRIPTION)
 
         print(f"Question: {expression}")
         answer = prompt.string("Your answer: ")

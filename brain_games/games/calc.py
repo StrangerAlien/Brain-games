@@ -1,10 +1,10 @@
 from random import randint, choice
 import operator
 
+DESCRIPTION = "What is the result of the expression?"
+
 
 def game_data():
-    print("What is the result of the expression?")
-
     first_num = randint(0, 10)
     second_num = randint(0, 10)
 
@@ -20,4 +20,4 @@ def game_data():
 
     right_answer = str(action[operation](first_num, second_num))
 
-    return expression, right_answer
+    return expression, right_answer, DESCRIPTION

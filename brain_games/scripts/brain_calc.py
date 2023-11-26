@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from brain_games.games import calc
-from brain_games import general_logic
+from brain_games import game_engine
 
 
 def main():
-    general_logic.logic_(calc)
+    game_engine.logic_(calc)
 
 
 if __name__ == '__main__':
