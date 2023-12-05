@@ -3,10 +3,10 @@ from random import randint
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_data():
+def get_question_and_answer():
     num = randint(1, 200)
     right_answer = 'yes' if is_prime(num) else 'no'
-    return str(num), right_answer, DESCRIPTION
+    return str(num), right_answer
 
 
 def is_prime(num):
