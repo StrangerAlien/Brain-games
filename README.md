@@ -17,7 +17,7 @@
 ## Install
 
 ```bash
-git clone https://github.com/StrangerAlien/python-project-49.git
+git clone https://github.com/StrangerAlien/Brain-games
 
 cd python-project-49/
 
