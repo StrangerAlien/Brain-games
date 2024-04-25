@@ -2,7 +2,7 @@ import prompt
 
 
 def logic_(brain_game):
-    print("Welcome to the Brain Games!")
+    print("\033[1;4mWelcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
 
